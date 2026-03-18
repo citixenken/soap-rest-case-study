@@ -1,4 +1,4 @@
-# NCBA Channels Developer – SOAP/REST Case Study
+# SOAP/REST Case Study
 
 A Spring Boot application that integrates with a public SOAP web service (CountryInfoService) to look up country information by name, persists the results to a database, and exposes a REST API for CRUD operations.
 
@@ -57,8 +57,6 @@ soap-rest-case-study/
 
 ## Running Locally
 
-> Uses an **H2 in-memory database**. No external services required.
-
 ```bash
 # 1. Clone the repository
 git clone <repo-url>
@@ -72,11 +70,6 @@ mvn spring-boot:run
 ```
 
 The application starts on **http://localhost:8080**.
-
-H2 console is available at **http://localhost:8080/h2-console**
-- JDBC URL: `jdbc:h2:mem:countrydb`
-- Username: `sa`
-- Password: *(leave blank)*
 
 ---
 
